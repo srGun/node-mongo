@@ -15,8 +15,19 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"mongodb.mongodb-vscode"
-			]
+				"mongodb.mongodb-vscode",
+
+                "esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight",
+				"ritwickdey.liveserver"
+			],
+			
+			"settings": {
+				"editor.fontSize": 50,
+				"terminal.integrated.fontSize": 25,
+				"editor.wordWrap": "off"
+			}
 		}
 	}
 
